@@ -8,10 +8,10 @@ A lightweight, compliant, and modular AI assistant designed to handle Banking, F
 
 This project aims to build a safe, efficient, and compliance-aware AI system that:
 
-- Runs locally using a small language model
-- Prioritizes curated dataset responses
-- Uses retrieval for complex financial queries
-- Enforces strict BFSI safety and compliance guardrails
+- Runs locally using a small language model  
+- Prioritizes curated dataset responses  
+- Uses retrieval for complex financial queries  
+- Enforces strict BFSI safety and compliance guardrails  
 
 The system is designed to minimize hallucination and maximize response reliability.
 
@@ -19,22 +19,23 @@ The system is designed to minimize hallucination and maximize response reliabili
 
 ## Architecture Overview
 
+```
 User Query
-↓
+    ↓
 Guardrails Layer
-↓
+    ↓
 Dataset Similarity Match (Tier 1)
-↓ (if strong match)
+    ↓ (if strong match)
 Return Stored Response
-↓ (if no strong match)
+    ↓ (if no strong match)
 RAG Retrieval (Tier 3)
-↓ (if policy-related query)
+    ↓ (if policy-related query)
 Grounded Response
-↓ (otherwise)
+    ↓ (otherwise)
 Local Small Language Model (Tier 2 Fallback)
-↓
+    ↓
 Final Response
-
+```
 
 ---
 
@@ -44,11 +45,11 @@ Final Response
 
 Ensures:
 
-- No exposure of sensitive data
-- No identity-based personalization
-- No guessing of financial numbers
-- No generation of fake policies
-- Rejection of out-of-domain queries
+- No exposure of sensitive data  
+- No identity-based personalization  
+- No guessing of financial numbers  
+- No generation of fake policies  
+- Rejection of out-of-domain queries  
 
 This enforces BFSI compliance requirements.
 
@@ -56,10 +57,10 @@ This enforces BFSI compliance requirements.
 
 ### 2. Dataset Layer (Primary Response Engine)
 
-- 151+ Alpaca-formatted BFSI samples
-- Professional and standardized responses
-- Semantic similarity search using sentence-transformers
-- Deterministic response behavior
+- 151+ Alpaca-formatted BFSI samples  
+- Professional and standardized responses  
+- Semantic similarity search using `sentence-transformers`  
+- Deterministic response behavior  
 
 If a strong similarity match is found, the stored response is returned directly.
 
@@ -67,48 +68,50 @@ If a strong similarity match is found, the stored response is returned directly.
 
 ### 3. Small Local Language Model (SLM)
 
-- Model: TinyLlama-1.1B-Chat
-- Runs locally on CPU
-- Used only when dataset match fails
-- Prompt-conditioned for compliance safety
+- **Model:** TinyLlama-1.1B-Chat  
+- Runs locally on CPU  
+- Used only when dataset match fails  
+- Prompt-conditioned for compliance safety  
 
-Note: Due to hardware and time constraints, prompt conditioning was used instead of full LoRA fine-tuning. The architecture supports future fine-tuning.
+> Note: Due to hardware and time constraints, prompt conditioning was used instead of full LoRA fine-tuning. The architecture supports future fine-tuning.
 
 ---
 
 ### 4. RAG Layer (Knowledge Retrieval)
 
-- Structured policy documents stored in `data/knowledge_docs`
-- Semantic retrieval using embeddings
-- Context-grounded generation
+- Structured policy documents stored in `data/knowledge_docs`  
+- Semantic retrieval using embeddings  
+- Context-grounded generation  
 
 Used for:
-- Interest explanations
-- EMI breakdowns
-- Penalty rules
-- Loan approval policies
+
+- Interest explanations  
+- EMI breakdowns  
+- Penalty rules  
+- Loan approval policies  
 
 ---
 
 ## Project Structure
 
+```
 bfsi-call-center-ai-assistant/
 │
 ├── data/
-│ ├── alpaca_dataset.json
-│ ├── knowledge_docs/
+│   ├── alpaca_dataset.json
+│   └── knowledge_docs/
 │
 ├── src/
-│ ├── similarity.py
-│ ├── guardrails.py
-│ ├── slm.py
-│ ├── rag.py
-│ ├── pipeline.py
+│   ├── similarity.py
+│   ├── guardrails.py
+│   ├── slm.py
+│   ├── rag.py
+│   └── pipeline.py
 │
 ├── app.py
 ├── requirements.txt
-├── README.md
-
+└── README.md
+```
 
 ---
 
@@ -119,64 +122,80 @@ bfsi-call-center-ai-assistant/
 ```bash
 git clone https://github.com/PandiKabilesh2006/bfsi-call-center-ai-assistant.git
 cd bfsi-call-center-ai-assistant
-2. Create Virtual Environment
+```
+
+### 2. Create Virtual Environment
+
+```bash
 python -m venv venv
 venv\Scripts\activate   # Windows
-3. Install Dependencies
+```
+
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-4. Run Streamlit App
+```
+
+### 4. Run Streamlit App
+
+```bash
 streamlit run app.py
-Example Query Routing
-Query	Response Source
-How is EMI calculated?	Dataset
-Explain loan approval criteria	RAG
-Explain amortization	SLM
-What is my account number?	Guardrails
-Safety and Compliance Design
+```
+
+---
+
+## Example Query Routing
+
+| Query | Response Source |
+|--------|----------------|
+| How is EMI calculated? | Dataset |
+| Explain loan approval criteria | RAG |
+| Explain amortization | SLM |
+| What is my account number? | Guardrails |
+
+---
+
+## Safety and Compliance Design
+
 This system enforces:
 
-Deterministic dataset-first responses
+- Deterministic dataset-first responses  
+- Strict guardrail filtering  
+- No financial number guessing  
+- No exposure of customer identity data  
+- Grounded RAG responses for policy queries  
 
-Strict guardrail filtering
+---
 
-No financial number guessing
+## Scalability and Maintainability
 
-No exposure of customer identity data
+- Modular architecture  
+- Easily extensible dataset  
+- Replaceable SLM model  
+- Updatable knowledge base  
+- Clear separation of concerns  
 
-Grounded RAG responses for policy queries
+### Future Improvements
 
-Scalability and Maintainability
-Modular architecture
+- LoRA fine-tuning on Alpaca dataset  
+- Advanced semantic routing  
+- Conversation memory support  
+- Logging and monitoring integration  
 
-Easily extensible dataset
+---
 
-Replaceable SLM model
+## Deliverables Covered
 
-Updatable knowledge base
+- 150+ Alpaca formatted dataset  
+- Local SLM integration  
+- Structured RAG knowledge base  
+- Working end-to-end Streamlit demo  
+- Modular architecture with documentation  
 
-Clear separation of concerns
+---
 
-Future Improvements
-LoRA fine-tuning on Alpaca dataset
+## Author
 
-Advanced semantic routing
-
-Conversation memory support
-
-Logging and monitoring integration
-
-Deliverables Covered
-150+ Alpaca formatted dataset
-
-Local SLM integration
-
-Structured RAG knowledge base
-
-Working end-to-end Streamlit demo
-
-Modular architecture with documentation
-
-Author
-Pandi Kabilesh
+**Pandi Kabilesh**  
 AI/ML Enthusiast | Aspiring Machine Learning Engineer
-
