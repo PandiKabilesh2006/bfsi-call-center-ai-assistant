@@ -1,0 +1,14 @@
+EMI Policy Guidelines
+
+Equated Monthly Installment (EMI) consists of both principal and interest components.
+
+The EMI amount is calculated using the amortization formula based on:
+- Loan principal
+- Interest rate
+- Loan tenure
+
+Each EMI payment reduces the outstanding principal amount.
+
+Late EMI payments may result in penalties as per loan agreement terms.
+
+Customers should refer to official EMI calculators for exact figures.

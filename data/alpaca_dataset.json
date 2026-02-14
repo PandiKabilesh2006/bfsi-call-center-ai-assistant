@@ -1,0 +1,760 @@
+[
+  {
+    "instruction": "Check loan eligibility",
+    "input": "Am I eligible for a personal loan?",
+    "output": "Loan eligibility depends on factors such as income level, employment stability, credit score, and existing financial obligations. Please provide your details through the official application portal or contact your branch for an accurate assessment."
+  },
+  {
+    "instruction": "Loan application status",
+    "input": "What is the status of my loan application?",
+    "output": "For security reasons, application status cannot be shared without proper verification. Please log in to your official banking portal or contact customer support with your registered details."
+  },
+  {
+    "instruction": "EMI schedule details",
+    "input": "Can you share my EMI schedule?",
+    "output": "Your EMI schedule is available in your loan agreement and customer portal. Please log in securely to view the complete breakdown of installment amounts and due dates."
+  },
+  {
+    "instruction": "Interest rate information",
+    "input": "What is the current interest rate for home loans?",
+    "output": "Interest rates are subject to change based on market conditions and bank policies. Please refer to the official website or contact your branch for the latest applicable rates."
+  },
+  {
+    "instruction": "Missed EMI payment",
+    "input": "What happens if I miss my EMI payment?",
+    "output": "Missing an EMI may result in late payment charges and could impact your credit score. We recommend making payments on time and contacting customer support immediately if you anticipate a delay."
+  },
+  {
+    "instruction": "Prepayment of loan",
+    "input": "Can I prepay my loan?",
+    "output": "Loan prepayment is subject to the terms outlined in your loan agreement. Some loans may include prepayment conditions or fees. Please review your agreement or contact your branch for details."
+  },
+  {
+    "instruction": "Foreclosure process",
+    "input": "How can I close my loan early?",
+    "output": "To foreclose your loan, you must submit a foreclosure request and clear any outstanding balance. Terms and charges, if applicable, are defined in your loan agreement."
+  },
+  {
+    "instruction": "Transaction failure",
+    "input": "My transaction failed but money was deducted.",
+    "output": "In case of a failed transaction with a debit, the amount is typically reversed within standard processing timelines. If not reversed, please raise a service request with transaction details."
+  },
+  {
+    "instruction": "Account balance inquiry",
+    "input": "What is my account balance?",
+    "output": "For security reasons, account balance information can only be accessed through secure login channels such as mobile banking or internet banking."
+  },
+  {
+    "instruction": "Credit score impact",
+    "input": "Does applying for a loan affect my credit score?",
+    "output": "Loan applications may involve credit checks, which can impact your credit score depending on the type of inquiry. We recommend applying only when necessary."
+  },
+  {
+    "instruction": "Loan processing time",
+    "input": "How long does loan approval take?",
+    "output": "Loan processing time varies based on verification procedures, documentation completeness, and internal review policies. You will be notified once the review process is complete."
+  },
+  {
+    "instruction": "EMI calculation explanation",
+    "input": "How is EMI calculated?",
+    "output": "EMI is calculated based on the loan principal, interest rate, and tenure using a standard amortization formula. For exact figures, please use the official EMI calculator on the bank's website."
+  },
+  {
+    "instruction": "Penalty charges information",
+    "input": "What are the penalty charges for late payment?",
+    "output": "Late payment penalties are defined in your loan agreement and may vary by product type. Please review your agreement or contact support for accurate details."
+  },
+  {
+    "instruction": "Change EMI date",
+    "input": "Can I change my EMI due date?",
+    "output": "EMI date change requests are subject to internal approval policies. Please submit a formal request through your branch or official portal."
+  },
+  {
+    "instruction": "Loan statement request",
+    "input": "I need my loan statement.",
+    "output": "Loan statements can be downloaded securely from your internet banking portal. If you face any issues, please contact customer support."
+  },
+  {
+    "instruction": "Insurance policy details",
+    "input": "What does my insurance policy cover?",
+    "output": "Coverage details depend on your specific policy terms. Please review your policy document or contact your insurance advisor for clarification."
+  },
+  {
+    "instruction": "Claim process",
+    "input": "How do I file an insurance claim?",
+    "output": "To file a claim, submit the required documentation through the official claims portal or contact your insurance representative for guidance."
+  },
+  {
+    "instruction": "Debit card blocked",
+    "input": "My debit card is blocked. What should I do?",
+    "output": "If your card is blocked, please contact customer support immediately or use the mobile banking app to review card status and request assistance."
+  },
+  {
+    "instruction": "Account closure process",
+    "input": "How can I close my bank account?",
+    "output": "Account closure requires a formal request and settlement of any pending dues. Please visit your branch or submit a request through the official portal."
+  },
+  {
+    "instruction": "Loan top-up eligibility",
+    "input": "Can I apply for a loan top-up?",
+    "output": "Top-up eligibility depends on repayment history, outstanding balance, and credit profile. Please apply through the official portal for evaluation."
+  }
+  ,
+{
+  "instruction": "Loan eligibility criteria",
+  "input": "What are the basic requirements for getting a personal loan?",
+  "output": "Personal loan eligibility typically depends on income level, employment stability, credit history, and existing financial obligations. Please apply through official channels for a complete evaluation."
+},
+{
+  "instruction": "Loan eligibility for salaried individual",
+  "input": "I am a salaried employee. Can I apply for a home loan?",
+  "output": "Salaried individuals may apply for a home loan subject to income verification, credit assessment, and documentation requirements. Please submit an application through the official portal."
+},
+{
+  "instruction": "Loan eligibility for self-employed",
+  "input": "Can self-employed professionals apply for business loans?",
+  "output": "Self-employed professionals can apply for business loans, subject to financial documentation, credit evaluation, and internal policy review."
+},
+{
+  "instruction": "Minimum income requirement",
+  "input": "Is there a minimum income required for loan approval?",
+  "output": "Minimum income criteria vary by loan product and internal policy. Please refer to official product guidelines or contact support for clarification."
+},
+{
+  "instruction": "Loan application status tracking",
+  "input": "How can I check the status of my submitted loan application?",
+  "output": "Loan application status can be tracked through the official banking portal or by contacting customer support with verified credentials."
+},
+{
+  "instruction": "Loan application processing delay",
+  "input": "Why is my loan approval taking longer than expected?",
+  "output": "Loan processing timelines may vary depending on documentation verification and internal review procedures. You will be notified once the review is complete."
+},
+{
+  "instruction": "EMI breakdown explanation",
+  "input": "Can you explain the components of my EMI?",
+  "output": "An EMI consists of principal repayment and interest components. Over time, the principal portion increases while the interest portion decreases."
+},
+{
+  "instruction": "EMI schedule access",
+  "input": "Where can I find my full EMI payment schedule?",
+  "output": "Your EMI schedule is available in your loan agreement and online banking portal. Please log in securely to access it."
+},
+{
+  "instruction": "Interest rate variation",
+  "input": "Why did my loan interest rate change?",
+  "output": "Interest rates may vary due to market conditions or policy revisions. Please review official communication or contact your branch for details."
+},
+{
+  "instruction": "Floating vs fixed interest",
+  "input": "What is the difference between fixed and floating interest rates?",
+  "output": "A fixed interest rate remains constant throughout the loan tenure, while a floating rate may change based on market conditions."
+},
+{
+  "instruction": "Transaction dispute",
+  "input": "I see an unknown transaction in my account.",
+  "output": "If you notice an unfamiliar transaction, please report it immediately through official customer support channels for investigation."
+},
+{
+  "instruction": "Transaction reversal timeline",
+  "input": "How long does it take for a failed payment to be reversed?",
+  "output": "Failed transactions are typically reversed within standard processing timelines. Please monitor your account or contact support if delayed."
+},
+{
+  "instruction": "Late payment penalty",
+  "input": "What happens if I delay my EMI payment?",
+  "output": "Delayed EMI payments may result in penalty charges and could impact your credit score. Please review your loan agreement for details."
+},
+{
+  "instruction": "Foreclosure charges",
+  "input": "Are there any charges for closing my loan early?",
+  "output": "Foreclosure terms and charges depend on your loan agreement. Please review the official terms before proceeding."
+},
+{
+  "instruction": "Prepayment policy",
+  "input": "Can I make partial prepayments toward my loan?",
+  "output": "Partial prepayments may be allowed depending on loan terms. Please refer to your agreement for applicable conditions."
+},
+{
+  "instruction": "Account statement request",
+  "input": "How do I download my bank statement?",
+  "output": "Bank statements can be downloaded securely from internet or mobile banking platforms after login verification."
+},
+{
+  "instruction": "Credit score importance",
+  "input": "Why is my credit score important for loan approval?",
+  "output": "Credit score reflects your repayment history and financial discipline. It plays a key role in loan approval decisions."
+},
+{
+  "instruction": "Loan tenure explanation",
+  "input": "What does loan tenure mean?",
+  "output": "Loan tenure refers to the total duration over which the loan is scheduled to be repaid."
+},
+{
+  "instruction": "Processing fee information",
+  "input": "Is there a processing fee for loans?",
+  "output": "Processing fees may apply depending on the loan product. Please refer to official documentation for details."
+},
+{
+  "instruction": "EMI auto debit",
+  "input": "How does EMI auto-debit work?",
+  "output": "EMI auto-debit allows automatic deduction of installment amounts from your registered account on the due date."
+},
+{
+  "instruction": "Loan documentation",
+  "input": "What documents are required for loan approval?",
+  "output": "Required documents typically include identity proof, address proof, income verification, and financial statements."
+},
+{
+  "instruction": "Insurance coverage query",
+  "input": "Does my loan include insurance coverage?",
+  "output": "Some loan products may include insurance coverage. Please review your loan agreement for specific details."
+},
+{
+  "instruction": "Loan rejection reason",
+  "input": "Why was my loan application rejected?",
+  "output": "Loan applications may be declined due to credit assessment results or incomplete documentation. Please contact support for clarification."
+},
+{
+  "instruction": "Penalty impact on credit score",
+  "input": "Will missing EMI affect my credit score?",
+  "output": "Yes, delayed or missed payments may negatively impact your credit score and repayment history."
+},
+{
+  "instruction": "Interest calculation method",
+  "input": "How is loan interest calculated?",
+  "output": "Loan interest is calculated based on the principal amount, applicable interest rate, and loan tenure using standard amortization formulas."
+}
+,
+{
+  "instruction": "Home loan eligibility",
+  "input": "Am I eligible for a home loan if I already have a personal loan?",
+  "output": "Eligibility for a home loan depends on your income, existing liabilities, repayment history, and credit profile. Existing loans may impact your eligibility assessment."
+},
+{
+  "instruction": "Business loan eligibility",
+  "input": "What factors determine business loan approval?",
+  "output": "Business loan approval depends on financial stability, creditworthiness, business performance, and internal policy evaluation."
+},
+{
+  "instruction": "Loan co-applicant eligibility",
+  "input": "Can I apply for a loan with a co-applicant?",
+  "output": "Yes, loans may be applied for with a co-applicant, subject to eligibility criteria and combined financial assessment."
+},
+{
+  "instruction": "Loan balance inquiry",
+  "input": "How can I check my outstanding loan balance?",
+  "output": "Your outstanding loan balance can be viewed through secure internet banking or by contacting customer support after verification."
+},
+{
+  "instruction": "Loan statement frequency",
+  "input": "How often is my loan statement generated?",
+  "output": "Loan statements are typically generated periodically and can be accessed through official banking channels."
+},
+{
+  "instruction": "EMI due date reminder",
+  "input": "How can I receive reminders for my EMI due date?",
+  "output": "You may enable alerts through mobile or internet banking to receive EMI reminders before the due date."
+},
+{
+  "instruction": "Change repayment tenure",
+  "input": "Can I extend my loan tenure?",
+  "output": "Loan tenure modification requests are subject to approval and internal policy review. Please contact your branch for assistance."
+},
+{
+  "instruction": "Reduce loan tenure",
+  "input": "Can I reduce my loan tenure?",
+  "output": "Reducing loan tenure may be possible through prepayment or restructuring, subject to applicable terms and approval."
+},
+{
+  "instruction": "Floating rate revision",
+  "input": "When does a floating interest rate get revised?",
+  "output": "Floating interest rates are revised periodically based on market benchmarks and internal policy guidelines."
+},
+{
+  "instruction": "Fixed rate benefits",
+  "input": "What are the benefits of a fixed interest rate?",
+  "output": "A fixed interest rate ensures stable EMI payments throughout the loan tenure, protecting against market fluctuations."
+},
+{
+  "instruction": "EMI bounce charges",
+  "input": "What happens if my EMI auto-debit fails?",
+  "output": "If an EMI auto-debit fails, applicable charges may apply and you should arrange payment promptly to avoid penalties."
+},
+{
+  "instruction": "Loan restructuring",
+  "input": "Can I restructure my loan due to financial difficulty?",
+  "output": "Loan restructuring may be considered under specific conditions, subject to documentation and approval processes."
+},
+{
+  "instruction": "Moratorium period",
+  "input": "What is a loan moratorium period?",
+  "output": "A moratorium period allows temporary suspension of payments under specific policy conditions. Terms vary by loan type."
+},
+{
+  "instruction": "Credit score improvement",
+  "input": "How can I improve my credit score?",
+  "output": "Timely repayments, maintaining low credit utilization, and avoiding frequent loan applications may help improve your credit score."
+},
+{
+  "instruction": "Loan sanction letter",
+  "input": "What is a loan sanction letter?",
+  "output": "A loan sanction letter is an official document confirming loan approval and outlining approved terms and conditions."
+},
+{
+  "instruction": "Loan disbursement process",
+  "input": "When will my approved loan amount be disbursed?",
+  "output": "Loan disbursement occurs after completion of documentation and verification processes as per internal guidelines."
+},
+{
+  "instruction": "Processing fee refund",
+  "input": "Is the processing fee refundable if my loan is rejected?",
+  "output": "Processing fee refund policies depend on product terms. Please refer to official documentation for clarity."
+},
+{
+  "instruction": "Auto loan eligibility",
+  "input": "What are the criteria for applying for a car loan?",
+  "output": "Car loan eligibility depends on income, credit profile, repayment capacity, and documentation compliance."
+},
+{
+  "instruction": "Loan guarantor role",
+  "input": "What is the role of a loan guarantor?",
+  "output": "A loan guarantor agrees to assume repayment responsibility if the primary borrower defaults."
+},
+{
+  "instruction": "Loan foreclosure statement",
+  "input": "How can I obtain a foreclosure statement?",
+  "output": "A foreclosure statement can be requested through official banking channels and is issued after verification."
+},
+{
+  "instruction": "Insurance claim timeline",
+  "input": "How long does insurance claim processing take?",
+  "output": "Insurance claim timelines depend on documentation verification and policy conditions."
+},
+{
+  "instruction": "Policy renewal reminder",
+  "input": "How can I receive reminders for policy renewal?",
+  "output": "Policy renewal reminders can be enabled through official communication channels."
+},
+{
+  "instruction": "Interest reset clause",
+  "input": "What is an interest reset clause in loans?",
+  "output": "An interest reset clause allows periodic revision of the applicable interest rate based on agreed terms."
+},
+{
+  "instruction": "Penalty waiver request",
+  "input": "Can penalty charges be waived?",
+  "output": "Penalty waiver requests are evaluated on a case-by-case basis according to internal policy guidelines."
+},
+{
+  "instruction": "Minimum due payment",
+  "input": "What is minimum due payment in loan accounts?",
+  "output": "Minimum due payment refers to the least amount payable to avoid default status as defined in the agreement."
+},
+{
+  "instruction": "Loan account closure confirmation",
+  "input": "How do I confirm that my loan is fully closed?",
+  "output": "Loan closure confirmation is issued after all dues are cleared and documented officially."
+},
+{
+  "instruction": "Partial payment impact",
+  "input": "Does making partial payments reduce my interest burden?",
+  "output": "Partial payments may reduce outstanding principal and potentially lower overall interest obligations."
+},
+{
+  "instruction": "EMI frequency change",
+  "input": "Can I switch from monthly to quarterly EMI?",
+  "output": "Changes in EMI frequency depend on loan product policies and require formal approval."
+},
+{
+  "instruction": "Account freeze reason",
+  "input": "Why was my account temporarily frozen?",
+  "output": "Accounts may be temporarily restricted due to security checks or compliance requirements."
+},
+{
+  "instruction": "KYC update",
+  "input": "How can I update my KYC details?",
+  "output": "KYC details can be updated by submitting required documents through official banking channels."
+},
+{
+  "instruction": "Loan agreement copy",
+  "input": "How can I get a copy of my loan agreement?",
+  "output": "Loan agreement copies can be requested through secure customer service channels."
+},
+{
+  "instruction": "Loan transfer process",
+  "input": "Can I transfer my loan to another bank?",
+  "output": "Loan balance transfer is subject to approval and applicable policy terms."
+},
+{
+  "instruction": "EMI holiday",
+  "input": "Is it possible to skip one EMI?",
+  "output": "EMI holiday options may be available under specific policy conditions and require formal approval."
+},
+{
+  "instruction": "Loan default consequences",
+  "input": "What happens if I default on my loan?",
+  "output": "Loan default may result in penalties, recovery actions, and negative credit reporting."
+},
+{
+  "instruction": "Interest certificate request",
+  "input": "How can I download my interest certificate?",
+  "output": "Interest certificates can be downloaded from secure internet banking portals."
+},
+{
+  "instruction": "Credit report access",
+  "input": "How can I check my credit report?",
+  "output": "Credit reports can be accessed through authorized credit bureaus or official banking platforms."
+},
+{
+  "instruction": "Loan approval notification",
+  "input": "How will I be informed about loan approval?",
+  "output": "Loan approval notifications are communicated through registered contact channels."
+},
+{
+  "instruction": "Duplicate payment",
+  "input": "I accidentally paid EMI twice. What should I do?",
+  "output": "Please contact customer support with transaction details to review duplicate payment resolution options."
+},
+{
+  "instruction": "Loan EMI rescheduling",
+  "input": "Can I reschedule my EMI payments?",
+  "output": "EMI rescheduling requests are evaluated under internal restructuring policies."
+},
+{
+  "instruction": "Interest accrual explanation",
+  "input": "How does interest accrue on my loan?",
+  "output": "Interest accrues based on outstanding principal and applicable rate over the defined tenure."
+},
+{
+  "instruction": "Balance transfer eligibility",
+  "input": "Am I eligible for loan balance transfer?",
+  "output": "Balance transfer eligibility depends on repayment history, credit profile, and product terms."
+},
+{
+  "instruction": "Account reactivation",
+  "input": "How can I reactivate my dormant account?",
+  "output": "Dormant accounts can be reactivated by completing required verification procedures."
+},
+{
+  "instruction": "Loan cancellation process",
+  "input": "Can I cancel my loan after approval?",
+  "output": "Loan cancellation may be possible before disbursement, subject to applicable terms."
+},
+{
+  "instruction": "Processing timeline",
+  "input": "How long does it take to process a business loan?",
+  "output": "Business loan processing timelines vary depending on documentation and risk assessment."
+},
+{
+  "instruction": "EMI calculation change",
+  "input": "Why did my EMI amount change?",
+  "output": "EMI amounts may change due to interest rate revision or loan restructuring."
+},
+{
+  "instruction": "Loan margin requirement",
+  "input": "What is margin money in loans?",
+  "output": "Margin money refers to the portion of the asset cost paid by the borrower upfront."
+},
+{
+  "instruction": "Loan renewal",
+  "input": "Can I renew my loan after tenure ends?",
+  "output": "Loan renewal options depend on product type and updated eligibility assessment."
+},
+{
+  "instruction": "Account linking",
+  "input": "Can I link multiple accounts for EMI payments?",
+  "output": "Multiple account linking may be allowed subject to internal system capabilities and approval."
+},
+{
+  "instruction": "Standing instruction setup",
+  "input": "How do I set up standing instructions for EMI payment?",
+  "output": "Standing instructions can be set up through secure banking platforms after authentication."
+}
+,
+{
+  "instruction": "Loan interest certificate purpose",
+  "input": "Why do I need an interest certificate?",
+  "output": "An interest certificate provides details of interest paid during a financial year and may be required for tax or documentation purposes."
+},
+{
+  "instruction": "Loan repayment mode change",
+  "input": "Can I change my loan repayment mode?",
+  "output": "Repayment mode changes may be permitted subject to internal policy and approval procedures."
+},
+{
+  "instruction": "EMI grace period",
+  "input": "Is there a grace period for EMI payments?",
+  "output": "Grace periods, if applicable, are defined in the loan agreement. Please refer to official documentation."
+},
+{
+  "instruction": "Loan eligibility after rejection",
+  "input": "Can I reapply after my loan was rejected?",
+  "output": "You may reapply after addressing the reasons for rejection, subject to updated eligibility assessment."
+},
+{
+  "instruction": "Insurance premium payment",
+  "input": "How can I pay my insurance premium?",
+  "output": "Insurance premiums can be paid through official online portals or authorized payment channels."
+},
+{
+  "instruction": "Policy lapse consequences",
+  "input": "What happens if I miss an insurance premium?",
+  "output": "Missing a premium may result in policy lapse as per terms. Please review policy conditions."
+},
+{
+  "instruction": "Loan EMI reminder activation",
+  "input": "How do I activate EMI SMS alerts?",
+  "output": "EMI alerts can be activated via mobile banking settings under notification preferences."
+},
+{
+  "instruction": "Joint loan application",
+  "input": "Can spouses apply jointly for a loan?",
+  "output": "Joint applications are permitted subject to combined eligibility evaluation."
+},
+{
+  "instruction": "Loan eligibility based on credit score",
+  "input": "Is there a minimum credit score required?",
+  "output": "Credit score requirements vary by product and internal policy standards."
+},
+{
+  "instruction": "Loan tenure impact",
+  "input": "Does longer tenure reduce EMI amount?",
+  "output": "A longer tenure may reduce EMI amounts but could increase total interest payable."
+},
+{
+  "instruction": "Loan EMI auto-debit cancellation",
+  "input": "Can I cancel EMI auto-debit?",
+  "output": "Auto-debit cancellation requests must be formally submitted and approved."
+},
+{
+  "instruction": "Loan sanction validity",
+  "input": "How long is a loan sanction valid?",
+  "output": "Loan sanction validity periods are specified in the sanction letter."
+},
+{
+  "instruction": "Loan part disbursement",
+  "input": "Can my loan be disbursed in parts?",
+  "output": "Certain loan products may allow phased disbursement subject to agreement terms."
+},
+{
+  "instruction": "Interest compounding frequency",
+  "input": "How often is interest compounded?",
+  "output": "Interest compounding frequency is defined in your loan agreement."
+},
+{
+  "instruction": "Loan account statement frequency",
+  "input": "When will I receive my loan statement?",
+  "output": "Loan statements are issued periodically and accessible through secure login."
+},
+{
+  "instruction": "Credit limit enhancement",
+  "input": "How can I increase my credit limit?",
+  "output": "Credit limit enhancements are subject to review of repayment history and eligibility."
+},
+{
+  "instruction": "Loan EMI advance payment",
+  "input": "Can I pay next month's EMI in advance?",
+  "output": "Advance EMI payments may be allowed depending on product terms."
+},
+{
+  "instruction": "Loan document verification",
+  "input": "How are my loan documents verified?",
+  "output": "Documents are verified through internal compliance and risk assessment processes."
+},
+{
+  "instruction": "Policy document download",
+  "input": "Where can I download my insurance policy document?",
+  "output": "Policy documents can be downloaded securely from the official insurance portal."
+},
+{
+  "instruction": "Loan interest reset frequency",
+  "input": "How often is interest reset for floating loans?",
+  "output": "Interest reset frequency is specified in the loan agreement."
+},
+{
+  "instruction": "Loan foreclosure procedure",
+  "input": "What is the procedure for loan foreclosure?",
+  "output": "Foreclosure requires formal request submission and settlement of outstanding dues."
+},
+{
+  "instruction": "Account nominee update",
+  "input": "How can I update my nominee details?",
+  "output": "Nominee details can be updated by submitting a formal request through official channels."
+},
+{
+  "instruction": "EMI missed payment consequence",
+  "input": "What are consequences of missing multiple EMIs?",
+  "output": "Multiple missed EMIs may lead to penalties, credit score impact, and recovery actions."
+},
+{
+  "instruction": "Loan repayment history access",
+  "input": "How do I check my loan repayment history?",
+  "output": "Repayment history is available in your loan statement through secure banking platforms."
+},
+{
+  "instruction": "Loan collateral requirement",
+  "input": "Is collateral required for all loans?",
+  "output": "Collateral requirements depend on the loan type and internal policy guidelines."
+},
+{
+  "instruction": "Loan overdraft facility",
+  "input": "Does my loan include overdraft facility?",
+  "output": "Overdraft availability depends on specific loan products and eligibility terms."
+},
+{
+  "instruction": "Loan repayment extension",
+  "input": "Can I extend repayment due to emergency?",
+  "output": "Repayment extensions may be evaluated subject to policy and documentation."
+},
+{
+  "instruction": "EMI calculation formula",
+  "input": "What formula is used to calculate EMI?",
+  "output": "EMI is calculated using a standard amortization formula based on principal, interest rate, and tenure."
+},
+{
+  "instruction": "Loan agreement modification",
+  "input": "Can loan agreement terms be modified?",
+  "output": "Loan agreement modifications require formal approval and documentation."
+},
+{
+  "instruction": "Interest accrual after default",
+  "input": "Does interest continue after loan default?",
+  "output": "Interest may continue to accrue on outstanding balances as per agreement terms."
+},
+{
+  "instruction": "Insurance policy rider addition",
+  "input": "Can I add riders to my insurance policy?",
+  "output": "Policy riders may be added subject to eligibility and policy conditions."
+},
+{
+  "instruction": "Loan processing document checklist",
+  "input": "What documents should I prepare before applying?",
+  "output": "Applicants should prepare identity proof, address proof, income documents, and financial statements."
+},
+{
+  "instruction": "EMI recalculation",
+  "input": "Will EMI be recalculated after partial prepayment?",
+  "output": "EMI recalculation depends on whether tenure or EMI amount is adjusted post-prepayment."
+},
+{
+  "instruction": "Loan cancellation before disbursement",
+  "input": "Can I cancel loan before funds are disbursed?",
+  "output": "Loan cancellation before disbursement may be permitted subject to policy terms."
+},
+{
+  "instruction": "Account closure timeline",
+  "input": "How long does account closure take?",
+  "output": "Account closure timelines depend on verification and settlement of dues."
+},
+{
+  "instruction": "Loan tax benefit",
+  "input": "Are there tax benefits on loan interest?",
+  "output": "Tax benefits depend on applicable laws and loan type. Please consult official tax guidelines."
+},
+{
+  "instruction": "Insurance claim documentation",
+  "input": "What documents are needed for insurance claim?",
+  "output": "Required documents vary by claim type and are specified in the policy guidelines."
+},
+{
+  "instruction": "Loan EMI schedule change request",
+  "input": "How do I request EMI schedule modification?",
+  "output": "EMI schedule modification requests must be formally submitted and reviewed."
+},
+{
+  "instruction": "Credit utilization impact",
+  "input": "Does high credit utilization affect loan approval?",
+  "output": "High credit utilization may impact creditworthiness and loan eligibility assessment."
+},
+{
+  "instruction": "Loan repayment method options",
+  "input": "What are available loan repayment methods?",
+  "output": "Repayment methods include auto-debit, online transfer, and authorized payment channels."
+},
+{
+  "instruction": "Loan repayment confirmation",
+  "input": "How will I know my EMI was successfully paid?",
+  "output": "Payment confirmations are issued via official communication channels."
+},
+{
+  "instruction": "Insurance surrender value",
+  "input": "What is surrender value in insurance?",
+  "output": "Surrender value refers to the amount payable if a policy is terminated before maturity."
+},
+{
+  "instruction": "Loan default reporting",
+  "input": "Is loan default reported to credit bureaus?",
+  "output": "Loan defaults may be reported to credit bureaus as per regulatory requirements."
+},
+{
+  "instruction": "Account re-verification process",
+  "input": "Why was my account flagged for re-verification?",
+  "output": "Accounts may require re-verification due to compliance or security checks."
+},
+{
+  "instruction": "Loan top-up processing time",
+  "input": "How long does top-up loan approval take?",
+  "output": "Top-up processing time varies depending on documentation and eligibility review."
+},
+{
+  "instruction": "Interest rate negotiation",
+  "input": "Can I negotiate my loan interest rate?",
+  "output": "Interest rate negotiations depend on internal policy and eligibility assessment."
+},
+{
+  "instruction": "EMI debit date change",
+  "input": "Can I change EMI debit date after approval?",
+  "output": "EMI debit date changes may be permitted subject to product terms."
+},
+{
+  "instruction": "Loan agreement digital copy",
+  "input": "Can I receive a digital copy of my agreement?",
+  "output": "Digital copies of agreements can be requested through secure channels."
+},
+{
+  "instruction": "Loan repayment restructuring eligibility",
+  "input": "Who qualifies for loan restructuring?",
+  "output": "Restructuring eligibility depends on financial circumstances and internal review."
+},
+{
+  "instruction": "Insurance policy cancellation",
+  "input": "How do I cancel my insurance policy?",
+  "output": "Policy cancellation procedures are outlined in official policy documents."
+},
+{
+  "instruction": "Loan EMI holiday eligibility",
+  "input": "Am I eligible for EMI holiday?",
+  "output": "EMI holiday eligibility depends on internal guidelines and documentation review."
+},
+{
+  "instruction": "Loan outstanding certificate",
+  "input": "How can I get an outstanding balance certificate?",
+  "output": "Outstanding balance certificates can be requested through official banking channels."
+},
+{
+  "instruction": "Account transaction alert activation",
+  "input": "How can I activate transaction alerts?",
+  "output": "Transaction alerts can be enabled via mobile or internet banking settings."
+},
+{
+  "instruction": "Loan EMI reduction",
+  "input": "Can EMI amount be reduced?",
+  "output": "EMI reduction may be possible through tenure adjustment or restructuring approval."
+},
+{
+  "instruction": "Policy beneficiary update",
+  "input": "How do I change policy beneficiary?",
+  "output": "Beneficiary changes require submission of a formal request through official channels."
+},
+{
+  "instruction": "Loan default recovery process",
+  "input": "What is the recovery process after loan default?",
+  "output": "Recovery procedures follow internal policies and applicable regulations."
+},
+{
+  "instruction": "Interest rate communication",
+  "input": "How will I be informed about interest rate changes?",
+  "output": "Interest rate revisions are communicated through official registered contact methods."
+}
+]
