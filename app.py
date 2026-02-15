@@ -3,11 +3,11 @@ from src.pipeline import BFSIAssistantPipeline
 
 st.set_page_config(
     page_title="BFSI AI Assistant",
-    page_icon="🏦",
+    page_icon="",
     layout="centered"
 )
 
-st.title("🏦 BFSI Call Center AI Assistant")
+st.title("BFSI Call Center AI Assistant")
 st.markdown("Lightweight, compliant AI system with dataset priority, SLM, and RAG.")
 
 @st.cache_resource
@@ -30,7 +30,7 @@ if(st.button("Submit")):
 
         st.success("Response Generated")
 
-        st.markdown("### 📌 Response")
+        st.markdown("###  Response")
         st.write(result["response"])
 
         st.markdown("---")

@@ -73,8 +73,6 @@ If a strong similarity match is found, the stored response is returned directly.
 - Used only when dataset match fails  
 - Prompt-conditioned for compliance safety  
 
-> Note: Due to hardware and time constraints, prompt conditioning was used instead of full LoRA fine-tuning. The architecture supports future fine-tuning.
-
 ---
 
 ### 4. RAG Layer (Knowledge Retrieval)
@@ -178,7 +176,6 @@ This system enforces:
 
 ### Future Improvements
 
-- LoRA fine-tuning on Alpaca dataset  
 - Advanced semantic routing  
 - Conversation memory support  
 - Logging and monitoring integration  
@@ -198,4 +195,4 @@ This system enforces:
 ## Author
 
 **Pandi Kabilesh**  
-AI/ML Enthusiast | Aspiring Machine Learning Engineer
+AI/ML Enthusiast | Aspiring AI Engineer
